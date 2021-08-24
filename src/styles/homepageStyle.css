@@ -1,0 +1,46 @@
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width:50%;
+    grid-gap: 20px;
+    margin:auto;
+    margin-top : 4rem;
+
+}
+.gal{
+    position: relative;
+}
+.addToFav{
+    position: absolute;
+    top:0%;
+    left:0%;
+}
+.addToFav button{
+    
+    background-color:rgb(226, 23, 23);
+    color:white;
+    width:15vw;
+    height:15vw;
+}
+.clear{
+    display:flex;
+    justify-content: center;
+    
+}
+.clear button{
+    padding: 20px;
+    margin:20px;
+    color:white;
+    background-color:rgb(236, 12, 12);
+    border-style: none;
+}
+.clear button:hover{
+    background-color:white;
+    color:rgb(236, 12, 12);
+    border:2px solid red;
+}
